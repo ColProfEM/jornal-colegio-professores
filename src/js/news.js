@@ -1,7 +1,12 @@
 const noticias = [
     {
-        titulo: "Distribuição dos materiais escolares",
-        chamada: "Igualdade, qualidade e responsabilidade. (Leia mais)",
+        titulo: "Resumo da semana (09-13 de Março)",
+        chamada: "(Assista)",
+        categoria: "outros"
+    },
+    {
+        titulo: "Resumo da semana (02-06 de Março)",
+        chamada: "(Assista)",
         categoria: "outros"
     },
     {
@@ -10,8 +15,8 @@ const noticias = [
         categoria: "cultura"
     },
     {
-        titulo: "Nosso novo formato",
-        chamada: "(Assista)",
+        titulo: "Distribuição dos materiais escolares",
+        chamada: "Igualdade, qualidade e responsabilidade. (Leia mais)",
         categoria: "outros"
     }
 ];

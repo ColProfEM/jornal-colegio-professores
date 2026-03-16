@@ -2,7 +2,6 @@ const noticias = [
     {
         titulo: "Distribuição dos materiais escolares",
         chamada: "Igualdade, qualidade e responsabilidade. (Leia mais)",
-        imagem: "./src/img/distribuicao-dos-materiais-escolares.png",
         categoria: "outros"
     }
 ];
@@ -12,11 +11,13 @@ const renderizarCards = () => {
 
     const cardHTML = noticias.map(item => `
         <section class="news-card ${item.categoria}">
-            <img class="card-bg" src="${item.imagem}" alt="${item.titulo}">
-            <section class="card-cover">
-                <h2>${item.titulo}</h2>
-                <span>${item.chamada}</span>
-            </section>
+            <a href="src/pages/${item.titulo}/page.html">
+                <img class="card-bg" src="src/pages/${item.titulo}/cover.jpeg" alt="${item.titulo}">
+                <section class="card-cover">
+                    <h2>${item.titulo}</h2>
+                    <span>${item.chamada}</span>
+                </section>
+            </a>
         </section>
     `).join('');
 

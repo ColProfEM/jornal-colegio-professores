@@ -6,6 +6,7 @@
     --nav-bg: #f1f3f4;
     --main-bg: #f9f7f2;
     --main-text: #1a1a1b;
+    --span-text: #55595d;
 }
 
 body {
@@ -107,6 +108,7 @@ main {
     background-color: var(--main-bg);
     padding: 80px 20px 20px 20px;
     gap: 20px;
+    min-height: calc(100vh - 60px);
 }
 
 .news-card {
@@ -137,6 +139,7 @@ main {
 .card-cover {
     position: absolute;
     padding: 10px;
+    margin-right: 10px;
     border-radius: 0 10px 10px 0;
     bottom: 15%;
     display: flex;
@@ -186,4 +189,33 @@ footer a {
 
 footer a span {
     font-size: 0.75rem;
+}
+
+/*Estilos da página da notícia*/
+article {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 500px;
+}
+
+article h2 {
+    font-size: 1.25rem;
+    color: var(--main-text);
+}
+
+article span {
+    font-size: 0.75rem;
+    color: var(--span-text);
+    margin-bottom: 100px;
+}
+
+article p {
+    font-size: 1rem;
+    color: var(--main-text);
+    text-align: justify;
+    line-height: 1.8;
+}
+
+article p:last-of-type {
+    margin-bottom: 50px;
 }

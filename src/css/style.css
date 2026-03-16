@@ -58,7 +58,7 @@ nav {
     background-color: var(--nav-bg);
     position: fixed;
     top: 60px;
-    left: -180px;
+    left: -200px;
     height: 100vh;
     border-right: 1px solid rgba(0, 0, 0, 0.05);
     transition: left 0.3s ease;
@@ -162,18 +162,25 @@ main {
     background-color: #7e57c2b5;
 }
 
+.cotidiano-escolar .card-cover {
+    background-color: #37474fb5;
+}
+
 .cultura .card-cover {
     background-color: #2e7d32b5;
 }
 
-.eventos .card-cover {
+.datas-especiais .card-cover {
+    background-color: #717d2eb5;
+}
+
+.esportes .card-cover {
     background-color: #e65100b5;
 }
 
-.outros .card-cover {
-    background-color: #37474fb5;
+.eventos .card-cover {
+    background-color: #1700e6b5;
 }
-
 
 /*Estilos do rodapé*/
 footer {

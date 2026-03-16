@@ -2,22 +2,22 @@ const noticias = [
     {
         titulo: "Resumo da semana (09-13 de Março)",
         chamada: "(Assista)",
-        categoria: "outros"
+        categoria: "cotidiano-escolar"
     },
     {
         titulo: "Resumo da semana (02-06 de Março)",
         chamada: "(Assista)",
-        categoria: "outros"
+        categoria: "cotidiano-escolar"
     },
     {
         titulo: "Dia da Mulher",
         chamada: "Nossa homenagem a todas as mulheres. (Leia mais)",
-        categoria: "cultura"
+        categoria: "datas-especiais"
     },
     {
         titulo: "Distribuição dos materiais escolares",
         chamada: "Igualdade, qualidade e responsabilidade. (Leia mais)",
-        categoria: "outros"
+        categoria: "cotidiano-escolar"
     }
 ];
 

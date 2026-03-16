@@ -3,6 +3,16 @@ const noticias = [
         titulo: "Distribuição dos materiais escolares",
         chamada: "Igualdade, qualidade e responsabilidade. (Leia mais)",
         categoria: "outros"
+    },
+    {
+        titulo: "Dia da Mulher",
+        chamada: "Nossa homenagem a todas as mulheres. (Leia mais)",
+        categoria: "cultura"
+    },
+    {
+        titulo: "Nosso novo formato",
+        chamada: "(Assista)",
+        categoria: "outros"
     }
 ];
 
